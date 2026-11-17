@@ -32,53 +32,50 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
-		Name="GIntel"
-		Revision="3.1"
-		Description="Yorkton Code Fractal GIntel - Guided Intelligence (Gi)"
-		ProjectRoot="server.markhome.ycf.GIntel.3.1" >
+		Name="GiAIIntel"
+		Revision="1.1"
+		Description="Yorkton Code Fractal GiAIIntel - Guided Intelligence Confidence And Curiosity Service"
+		ProjectRoot="server.markhome.giai.GIntel.3.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
-			<TopProject Name="ycf" >
-				<SubProject Name="GIntel" >
-					<MajorVersion Name="3" >
+			<TopProject Name="giai" >
+				<SubProject Name="GiAIIntel" >
+					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
-<SchemaDef Name="GIntel"
-		DbName="GIntel31"
-		ShortName="Gi"
-		Description="Yorkton Code Fractal Guided Intelligence (Gi)"
+<SchemaDef Name="GiAIIntel"
+		DbName="GiAIIntel11"
+		ShortName="GiAI"
+		Description="Yorkton Code Fractal Guided Intelligence Confidence and Curiosity Service"
 		CopyrightHolder="Mark Stephen Sobkow"
-		CopyrightPeriod="2026"
+		CopyrightPeriod="2027"
 		AuthorEMail="mark.sobkow@gmail.com"
-		ProjectURL="https://msobkow.github.io/"
-		PublishURI="https://msobkow.github.io/index.html#gintel31"
+		ProjectURL="git://github.com/msobkow/server.markhome.giai.git"
+		PublishURI="https://msobkow.github.io/index.html#GiAIIntel"
 		CommonLicenseName="Dual GPLv3/Commercial" CommonLicenseCode="DualGPLv3" >
 			<CommonLicense>
-Yorkton Code Fractal GIntel 3.1 Guided Intelligence (Gi)
+Yorkton Code Fractal GiAIIntel 1.1 Guided Intelligence Confidence and Curiosity Service
 
-Copyright 2026 Mark Stephen Sobkow
+Copyright 2027 Mark Stephen Sobkow
 
-This file is part of the Yorkton Code Fractal Guided Intelligence (Gi).
+This file is part of the Yorkton Code Fractal Guided Intelligence Confidence and Curiosity Service.
 
-Yorkton Code Fractal GIntel is available under dual commercial license from
-Mark Stephen Sobkow, or under the terms of the GNU General Public License,
-Version 3 or later with classpath exception.
+Yorkton Code Fractal GiAIIntel is available under dual commercial license from Mark Stephen Sobkow,
+or under the terms of the GNU General Public License, Version 3 or later with classpath exception.
 
-Yorkton Code Fractal GIntel is free software: you can redistribute it and/or
-modify it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Yorkton Code Fractal GiAIIntel is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
 
-Yorkton Code Fractal GIntel is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+Yorkton Code Fractal GiAIIntel is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
+Canadian Software Standards or International Law or Treaties.
 
-You should have received a copy of the GNU General Public License
-along with Yorkton Code Fractal GIntel.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+You should have received a copy of the GNU General Public License along with Yorkton Code Fractal GiAIIntel.
+If not, see https://www.gnu.org/licenses/.
 
-If you wish to modify and use this code without publishing your changes,
-or integrate it with proprietary code, please contact Mark Stephen Sobkow
-for a commercial license at mark.sobkow@gmail.com</CommonLicense>
+If you wish to modify and use this code without publishing your changes, or integrate it with proprietary
+code, please contact Mark Stephen Sobkow for a commercial license at mark.sobkow@gmail.com</CommonLicense>
 
 	<SchemaRef Name="Secure"
 			RefModelName="server-markhome-ycf-Secure-3-1-Secure"

@@ -32,50 +32,48 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
-		Name="CFDbTst"
-		Revision="3.1"
-		Description="Yorkton Code Fractal CFDbTst - Database Test Framework"
-		ProjectRoot="server.markhome.ycf.CFDbTst.3.1" >
+		Name="DbTest"
+		Revision="1.1"
+		Description="Yorkton Code Fractal DbTest - Database Tests"
+		ProjectRoot="server.markhome.giai.DbTest.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
-			<TopProject Name="ycf" >
-				<SubProject Name="CFDbTst" >
-					<MajorVersion Name="3" >
+			<TopProject Name="giai" >
+				<SubProject Name="DbTest" >
+					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
-<SchemaDef Name="CFDbTst"
-		DbName="CFDbTst31"
-		Description="Yorkton Code Fractal Database Test Framework"
+<SchemaDef Name="DbTest"
+		DbName="DbTest11"
+		Description="Yorkton Code Fractal Database Tests"
 		CopyrightHolder="Mark Stephen Sobkow"
-		CopyrightPeriod="2016-2026"
+		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
-		ProjectURL="https://msobkow.github.io/"
-		PublishURI="https://msobkow.github.io/index.html#cfdbtst31"
+		ProjectURL="git://github.io/msobkow/server.markhome.giai.git"
+		PublishURI="https://msobkow.github.io/index.html#DbTest11"
 		CommonLicenseName="Dual GPLv3/Commercial" CommonLicenseCode="DualGPLv3" >
 			<CommonLicense>
-Yorkton Code Fractal 3.1 CFDbTst - Database Test Framework
+Yorkton Code Fractal 3.1 DbTest - Database Tests
 
-This file is part of Yorkton Code Fractal CFDbTst.
+This file is part of Yorkton Code Fractal DbTest.
 
-Yorkton Code Fractal CFDbTst is available under dual commercial license from
-Mark Stephen Sobkow, or under the terms of the GNU Library General Public License,
-Version 3 or later.
+Yorkton Code Fractal DbTest is available under dual commercial license from Mark Stephen Sobkow,
+or under the terms of the GNU Library General Public License, Version 3 or later.
 
-Yorkton Code Fractal CFDbTst is free software: you can redistribute it and/or
+Yorkton Code Fractal DbTest is free software: you can redistribute it and/or
 modify it under the terms of the GNU Library General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Yorkton Code Fractal CFDbTst is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+Yorkton Code Fractal DbTest is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
+Canadian Software Standards or International Law or Treaties.
 
-You should have received a copy of the GNU Library General Public License
-along with Yorkton Code Fractal CFDbTst.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+You should have received a copy of the GNU Library General Public License along with Yorkton
+Code Fractal DbTest.  If not, see https://www.gnu.org/licenses/.
 
-If you wish to modify and use this code without publishing your changes in order to
-tie it to proprietary code, please contact Mark Stephen Sobkow
-for a commercial license at mark.sobkow@gmail.com
+If you wish to modify and use this code without publishing your changes to integrate it with
+proprietary code, please contact Mark Stephen Sobkow for a commercial license at mark.sobkow@gmail.com
 </CommonLicense>
 
 	<SchemaRef Name="Secure"

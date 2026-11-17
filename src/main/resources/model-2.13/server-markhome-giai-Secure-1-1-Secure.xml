@@ -24,9 +24,9 @@
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
 		Name="Secure"
-		Revision="3.1"
+		Revision="1.1"
 		Description="Guided Intelligence Architecture Implementation Security Services"
-		ProjectRoot="server.markhome.giai.Secure.3.1" >
+		ProjectRoot="server.markhome.giai.Secure.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
 			<TopProject Name="giai" >
@@ -40,7 +40,7 @@
 		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
 		ProjectURL="git://github.com/msobkow/server.markhome.giai.git"
-		PublishURI="https://msobkow.github.io/index.html#cfsecure31"
+		PublishURI="https://msobkow.github.io/index.html#Secure"
 		CommonLicenseName="NormalApacheV2" CommonLicenseCode="ApacheV2" >
 			<CommonLicense>
 Guided Intelligence Architecture Implementation 1.1 Secure - Security Services
@@ -54,10 +54,10 @@ file except in compliance with the License.  You may obtain a copy of the Licens
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software distributed under
-the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, either express or implied unless required by Canadian Software Standards or
-International Law or Treaties.
+Yorkton Code Fractal Security Services is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
+Canadian Software Standards or International Law or Treaties.
 
 See the License for the specific language governing permissions and limitations under
 the License.

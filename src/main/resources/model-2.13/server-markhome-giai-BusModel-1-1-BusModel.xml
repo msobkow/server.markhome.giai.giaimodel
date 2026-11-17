@@ -33,34 +33,34 @@
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
 		Name="BusModel"
-		Revision="3.1"
+		Revision="1.1"
 		Description="Yorkton Code Fractal BusModel - Business Application Model"
-		ProjectRoot="server.markhome.ycf.BusModel.3.1" >
+		ProjectRoot="server.markhome.giai.BusModel.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
-			<TopProject Name="ycf" >
+			<TopProject Name="giai" >
 				<SubProject Name="BusModel" >
-					<MajorVersion Name="3" >
+					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
 <SchemaDef Name="BusModel"
-		DbName="BusModel31"
+		DbName="BusModel11"
 		Description="Yorkton Code Fractal Business Application Model"
 		CopyrightHolder="Mark Stephen Sobkow"
-		CopyrightPeriod="2016-2026"
+		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
-		ProjectURL="https://msobkow.github.io/"
-		PublishURI="https://msobkow.github.io/index.html#cfbam31"
+		ProjectURL="git://github.com/server.markhome.giai.git"
+		PublishURI="https://msobkow.github.io/index.html#BusModel11"
 		CommonLicenseName="Dual GPLv3/Commercial" CommonLicenseCode="DualGPLv3" >
 			<CommonLicense>
 Yorkton Code Fractal BusModel 3.1 Business Application Model
 
-Copyright 2016-2026 Mark Stephen Sobkow
+Copyright 2016-2027 Mark Stephen Sobkow
 
 This file is part of the Yorkton Code Fractal Business Model.
 
 Yorkton Code Fractal BusModel is available under dual commercial license from
 Mark Stephen Sobkow, or under the terms of the GNU General Public License,
-Version 3 or later with classpath and static linking exceptions.
+Version 3 or later with classpath exception.
 
 Yorkton Code Fractal BusModel is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License as published by
@@ -68,24 +68,25 @@ the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
 Yorkton Code Fractal BusModel is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
+Canadian Software Standards or International Law or Treaties.
 
-You should have received a copy of the GNU General Public License
-along with Yorkton Code Fractal BusModel.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+You should have received a copy of the GNU General Public License along with
+Yorkton Code Fractal BusModel.  If not, see https://www.gnu.org/licenses/.
 
 If you wish to modify and use this code without publishing your changes,
 or integrate it with proprietary code, please contact Mark Stephen Sobkow
-for a commercial license at mark.sobkow@gmail.com</CommonLicense>
+for a commercial license at mark.sobkow@gmail.com
+</CommonLicense>
 
 	<SchemaRef Name="Secure"
-			RefModelName="server-markhome-ycf-Secure-3-1-Secure"
-			IncludeRoot="server.markhome.ycf.Secure.3.1.Secure" />
+			RefModelName="server-markhome-giai-Secure-1-1-Secure"
+			IncludeRoot="server.markhome.giai.Secure.1.1.Secure" />
 
-	<SchemaRef Name="IntNet"
-			RefModelName="server-markhome-ycf-IntNet-3-1-IntNet"
-			IncludeRoot="server.markhome.ycf.IntNet.3.1.IntNet" />
+	<SchemaRef Name="InterNet"
+			RefModelName="server-markhome-giai-InterNet-1-1-InterNet"
+			IncludeRoot="server.markhome.giai.InterNet.1.1.InterNet" />
 
 	<DbKeyHash256Gen Name="ChainIdGen"
 			IsNullable="false"

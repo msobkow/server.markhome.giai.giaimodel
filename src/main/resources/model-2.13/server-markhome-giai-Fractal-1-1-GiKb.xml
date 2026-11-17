@@ -42,58 +42,47 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
-		Name="CFBam"
-		Revision="3.1"
-		Description="Yorkton Code Fractal CFCore - Synthesis Core"
-		ProjectRoot="server.markhome.ycf.CFCore.3.1" >
+		Name="Fractal"
+		Revision="1.1"
+		Description="Yorkton Code Fractal Core - Synthesis Core"
+		ProjectRoot="server.markhome.giai.Fractal.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
-			<TopProject Name="ycf" >
-				<SubProject Name="CFCore" >
-					<MajorVersion Name="3" >
+			<TopProject Name="giai" >
+				<SubProject Name="Fractal" >
+					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
-<SchemaDef Name="CFGenKb"
-		DbName="CFGenKb31"
-		Description="Yorkton Code Fractal Generation Knowledge Base"
+<SchemaDef Name="GiKb"
+		DbName="GiKb11"
+		Description="Yorkton Code Fractal Guided Intelligence Architecture Implementation Knowledge Base"
 		CopyrightHolder="Mark Stephen Sobkow"
-		CopyrightPeriod="2016-2026"
+		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
-		ProjectURL="https://msobkow.github.io/"
-		PublishURI="https://msobkow.github.io/index.html#cfcore31"
+		ProjectURL="git://github.com/msobkow/server.markhome.giai.git"
+		PublishURI="https://msobkow.github.io/index.html#Fractal11"
 		CommonLicenseName="Dual GPLv3/Commercial" CommonLicenseCode="DualGPLv3" >
 			<CommonLicense>
-Yorkton Code Fractal CFCore 3.1 Synthesis Core
+Yorkton Code Fractal 3.1 Synthesis Core
 
-Copyright 2016-2026 Mark Stephen Sobkow
+Copyright 2016-2027 Mark Stephen Sobkow
 
-This file is part of Yorkton Code Fractal CFCore.
+This file is part of Yorkton Code Fractal Sythesis Core.
 
-Yorkton Code Fractal CFCore is available under dual commercial license from
-Mark Stephen Sobkow, or under the terms of the GNU General Public License,
-Version 3 or later with classpath and static linking exceptions.
+Yorkton Code Fractal Synthesis Core is available under dual commercial license from
+Mark Stephen Sobkow, or under the terms of the GNU General Public License, Version 3
+or later with classpath exception.
 
-As a special exception, Mark Sobkow gives you permission to link this library
-with independent modules to produce an executable, provided that none of them
-conflict with the intent of the GPLv3; that is, you are not allowed to invoke
-the methods of this library from non-GPLv3-compatibly licensed code. You may not
-implement an LPGLv3 "wedge" to try to bypass this restriction. That said, code which
-does not rely on this library is free to specify whatever license its authors decide
-to use. Mark Sobkow specifically rejects the infectious nature of the GPLv3, and
-considers the mere act of including GPLv3 modules in an executable to be perfectly
-reasonable given tools like modern Java's single-jar deployment options.
+Yorkton Code Fractal Fractal Synthesis is free software: you can redistribute it and/or
+modify it under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Yorkton Code Fractal CFCore is free software: you can redistribute it and/or
-modify it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+Yorkton Code Fractal Synthesis Core is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
+Canadian Software Standards or International Law or Treaties.
 
-Yorkton Code Fractal CFCore is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Yorkton Code Fractal CFCore.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+You should have received a copy of the GNU General Public License along with
+Yorkton Code Fractal Synthesis Core.  If not, see https://www.gnu.org/licenses/.
 
 If you wish to modify and use this code without publishing your changes,
 or integrate it with proprietary code, please contact Mark Stephen Sobkow
