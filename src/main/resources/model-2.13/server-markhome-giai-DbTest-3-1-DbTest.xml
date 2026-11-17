@@ -28,10 +28,10 @@
  *	for a commercial license at mark.sobkow@gmail.com
  *-->
 <MSSBam
-		xmlns="http://msscf.org/msscf/2.0.13/xsd/mssbam-2.13.xsd"
+		xmlns="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
-		xsi:schemaLocation="http://msscf.org/msscf/2.0.13/xsd/mssbam-2.13.xsd http://msscf.org/msscf/2.0.13/xsd/mssbam-2.13.xsd"
+		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
 		Name="CFDbTst"
 		Revision="3.1"
 		Description="Yorkton Code Fractal CFDbTst - Database Test Framework"
