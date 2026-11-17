@@ -25,41 +25,42 @@
 		xsi:schemaLocation="http://msscf.org/msscf/2.0.13/xsd/mssbam-2.13.xsd http://msscf.org/msscf/2.0.13/xsd/mssbam-2.13.xsd"
 		Name="Secure"
 		Revision="3.1"
-		Description="Yorkton Code Fractal Secure - Security Services"
-		ProjectRoot="server.markhome.ycf.Secure.3.1" >
+		Description="Guided Intelligence Architecture Implementation Security Services"
+		ProjectRoot="server.markhome.giai.Secure.3.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
-			<TopProject Name="ycf" >
+			<TopProject Name="giai" >
 				<SubProject Name="Secure" >
-					<MajorVersion Name="3" >
+					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
 <SchemaDef Name="Secure"
-		DbName="Secure31"
-		Description="Yorkton Code Fractal Security Services"
+		DbName="Secure11"
+		Description="Guided Intelligence Architecture Implementation Security Services"
 		CopyrightHolder="Mark Stephen Sobkow"
-		CopyrightPeriod="2016-2026"
+		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
-		ProjectURL="https://msobkow.github.io/"
-		PublishURI="https://msobkow.github.io/index.html#cfsec31"
+		ProjectURL="git://github.com/msobkow/server.markhome.giai.git"
+		PublishURI="https://msobkow.github.io/index.html#cfsecure31"
 		CommonLicenseName="NormalApacheV2" CommonLicenseCode="ApacheV2" >
 			<CommonLicense>
-Yorkton Code Fractal 3.1 Secure - Security Services
+Guided Intelligence Architecture Implementation 1.1 Secure - Security Services
 
-Copyright (c) 2016-2026 Mark Stephen Sobkow mark.sobkow@gmail.com
+Copyright (c) 2016-2027 Mark Stephen Sobkow mark.sobkow@gmail.com
 
-These files are part of Yorkton Code Fractal Secure.
+These files are part of Guided Intelligence Architecture Implementation Security Services.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
+file except in compliance with the License.  You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed under
+the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied unless required by Canadian Software Standards or
+International Law or Treaties.
+
+See the License for the specific language governing permissions and limitations under
+the License.
 </CommonLicense>
 
 	<EnumType Name="AuditActionEnum"
