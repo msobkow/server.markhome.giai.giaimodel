@@ -34,7 +34,7 @@
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
 		Name="BusModel"
 		Revision="1.1"
-		Description="Yorkton Code Fractal BusModel - Business Application Model"
+		Description="Guided Intelligence Architecture Implementation BusModel - Business Application Model"
 		ProjectRoot="server.markhome.giai.BusModel.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
@@ -44,7 +44,7 @@
 						<MinorVersion Name="1" >
 <SchemaDef Name="BusModel"
 		DbName="BusModel11"
-		Description="Yorkton Code Fractal Business Application Model"
+		Description="Guided Intelligence Architecture Implementation Business Application Model"
 		CopyrightHolder="Mark Stephen Sobkow"
 		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
@@ -52,32 +52,33 @@
 		PublishURI="https://msobkow.github.io/index.html#BusModel11"
 		CommonLicenseName="Dual GPLv3/Commercial" CommonLicenseCode="DualGPLv3" >
 			<CommonLicense>
-Yorkton Code Fractal BusModel 3.1 Business Application Model
+Guided Intelligence Architecture Implementation BusModel - Business Application Model
 
 Copyright 2016-2027 Mark Stephen Sobkow
 
 This file is part of the Yorkton Code Fractal Business Model.
 
-Yorkton Code Fractal BusModel is available under dual commercial license from
-Mark Stephen Sobkow, or under the terms of the GNU General Public License,
-Version 3 or later with classpath exception.
+Guided Intelligence Architecture Implementation BusModel - Business Application Model
+is available under dual commercial license from Mark Stephen Sobkow, or under the terms
+of the GNU General Public License, Version 3 or later with classpath exception.
 
-Yorkton Code Fractal BusModel is free software: you can redistribute it and/or
-modify it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
+Guided Intelligence Architecture Implementation BusModel - Business Application Model is
+free software: you can redistribute it and/or modify it under the terms of the GNU General
+Public License as published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Yorkton Code Fractal BusModel is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
-Canadian Software Standards or International Law or Treaties.
+Guided Intelligence Architecture Implementation BusModel - Business Application Model is
+distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE express or
+implied unless required by Canadian Software Standards or International Law and Treaties.
 
 You should have received a copy of the GNU General Public License along with
-Yorkton Code Fractal BusModel.  If not, see https://www.gnu.org/licenses/.
+Guided Intelligence Architecture Implementation BusModel - Business Application Model.
+If not, see https://www.gnu.org/licenses/.
 
-If you wish to modify and use this code without publishing your changes,
-or integrate it with proprietary code, please contact Mark Stephen Sobkow
-for a commercial license at mark.sobkow@gmail.com
+If you wish to modify and use this code without publishing your changes, or integrate
+it with proprietary code, please contact Mark Stephen Sobkow for a commercial license
+at mark.sobkow@gmail.com
 </CommonLicense>
 
 	<SchemaRef Name="Secure"

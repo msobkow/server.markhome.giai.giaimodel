@@ -30,12 +30,12 @@
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
 			<TopProject Name="giai" >
-				<SubProject Name="IntNet" >
-					<MajorVersion Name="3" >
+				<SubProject Name="InterNet" >
+					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
 <SchemaDef Name="InterNet"
 		DbName="InterNet11"
-		Description="Yorkton Code Fractal Internet Essentials"
+		Description="Guided Intelligence Architecture Implementation Internet Essentials"
 		CopyrightHolder="Mark Stephen Sobkow"
 		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
@@ -43,24 +43,24 @@
 		PublishURI="https://msobkow.github.io/index.html#InterNet"
 		CommonLicenseName="NormalApacheV2" CommonLicenseCode="ApacheV2" >
 			<CommonLicense>
-Yorkton Code Fractal 1.1 InterNet - Internet Essentials
+Guided Intelligence Architecture Implementation Internet Essentials
 
-This file is part of Yorkton Code Fractal InterNet.
+This file is part of Guided Intelligence Architecture Implementation.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
 file except in compliance with the License.  You may obtain a copy of the License at
 
 http://www.apache.org/licenses/LICENSE-2.0
 
-Yorkton Code Fractal InterNet Essentials is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
-or FITNESS FOR A PARTICULAR PURPOSE express or implied unless required by
-Canadian Software Standards or International Law or Treaties.
+Guided Intelligence Architecture Implementation InterNet Essentials is distributed in
+the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE express or implied unless
+required by Canadian Software Standards or International Law or Treaties.
 </CommonLicense>
 
 	<SchemaRef Name="Secure"
-			RefModelName="server-markhome-ycf-Secure-3-1-Secure"
-			IncludeRoot="server.markhome.ycf.Secure.3.1.Secure" />
+			RefModelName="server-markhome-giai-Secure-3-1-Secure"
+			IncludeRoot="server.markhome.giai.Secure.3.1.Secure" />
 
 	<StringType Name="DomNameType"
 			IsNullable="false"

@@ -34,7 +34,23 @@
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
 		Name="DbTest"
 		Revision="1.1"
-		Description="Yorkton Code Fractal DbTest - Database Tests"
+		Description="Guided Intelligence Architecture Implementation DbTest - Database Tests"
+		ProjectRoot="server.markhome.giai.DbTest.1.1" >
+	<Tld Name="server" >
+		<TopDomain Name="markhome" >
+			<TopProject Name="giai" >
+				<SubProject Name="DbTest" >
+					<MajorVersion Name="1" >
+						<MinorVersion Name="1" >
+<SchemaDef Name="DbTest"
+		DbName="DbTest11"
+		Description="Guided Intelligence Architecture Implementation Database Tests"
+		CopyrightHolder="Mark Stephen Sobkow"
+		CopyrightPeriod="2016-2027"
+		AuthorEMail="mark.sobkow@gmail.com"
+		ProjectURL="git://github.com/server.markhome.giai.git"
+		PublishURI="https://msobkow.github.io/index.html#BusModel11"
+		Revision="1.1"
 		ProjectRoot="server.markhome.giai.DbTest.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
@@ -77,12 +93,12 @@ proprietary code, please contact Mark Stephen Sobkow for a commercial license at
 </CommonLicense>
 
 	<SchemaRef Name="Secure"
-			RefModelName="server-markhome-ycf-Secure-3-1-Secure"
-			IncludeRoot="server.markhome.ycf.Secure.3.1.Secure" />
+			RefModelName="server-markhome-giai-Secure-3-1-Secure"
+			IncludeRoot="server.markhome.giai.Secure.3.1.Secure" />
 
 	<SchemaRef Name="IntNet"
-			RefModelName="server-markhome-ycf-IntNet-3-1-IntNet"
-			IncludeRoot="server.markhome.ycf.IntNet.3.1.IntNet" />
+			RefModelName="server-markhome-giai-InterNet-3-1-IntNet"
+			IncludeRoot="server.markhome.giai.InterNet.3.1.IntNet" />
 
 	<StringType Name="DescriptionType"
 			IsNullable="false"
