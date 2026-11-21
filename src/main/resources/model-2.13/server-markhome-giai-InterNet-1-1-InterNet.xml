@@ -59,7 +59,7 @@ required by Canadian Software Standards or International Law or Treaties.
 </CommonLicense>
 
 	<SchemaRef Name="Secure"
-			RefModelName="server-markhome-giai-Secure-3-1-Secure"
+			RefModelName="server-markhome-giai-Secure-1-1-Secure"
 			IncludeRoot="server.markhome.giai.Secure.3.1.Secure" />
 
 	<StringType Name="DomNameType"
