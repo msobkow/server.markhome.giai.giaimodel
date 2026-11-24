@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- *	Yorkton Code Fractal IntNet 3.1 Internet Essentials
+ *	Yorkton Code Fractal InterNet 3.1 Internet Essentials
  *
  *	Copyright 2016-2026 Mark Stephen Sobkow
  *
- *	This file is part of Yorkton Code Fractal IntNet.
+ *	This file is part of Yorkton Code Fractal InterNet.
  *
  *	Licensed under the Apache License, Version 2.0 (the "License");
  *	you may not use this file except in compliance with the License.
@@ -60,7 +60,7 @@ required by Canadian Software Standards or International Law or Treaties.
 
 	<SchemaRef Name="Secure"
 			RefModelName="server-markhome-giai-Secure-1-1-Secure"
-			IncludeRoot="server.markhome.giai.Secure.3.1.Secure" />
+			IncludeRoot="server.markhome.giai.Secure.1.1.Secure" />
 
 	<StringType Name="DomNameType"
 			IsNullable="false"

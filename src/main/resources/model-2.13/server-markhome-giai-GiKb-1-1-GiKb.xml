@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- *	Yorkton Code Fractal CFCore 3.1 Synthesis Core
+ *	Yorkton Code Fractal 3.1 Synthesis Core
  *
  *	Copyright 2016-2026 Mark Stephen Sobkow
  *
- *	This file is part of Yorkton Code Fractal CFCore.
+ *	This file is part of Yorkton Code Fractal.
  *
- *	Yorkton Code Fractal CFCore is available under dual commercial license from
+ *	Yorkton Code Fractal is available under dual commercial license from
  *	Mark Stephen Sobkow, or under the terms of the GNU General Public License,
  *	Version 3 or later with classpath and static linking exceptions.
  *
@@ -20,18 +20,18 @@
  *	considers the mere act of including GPLv3 modules in an executable to be perfectly
  *	reasonable given tools like modern Java's single-jar deployment options.
  *
- *	Yorkton Code Fractal CFCore is free software: you can redistribute it and/or
+ *	Yorkton Code Fractal is free software: you can redistribute it and/or
  *	modify it under the terms of the GNU General Public License as published by
  *	the Free Software Foundation, either version 3 of the License, or
  *	(at your option) any later version.
  *
- *	Yorkton Code Fractal CFCore is distributed in the hope that it will be useful,
+ *	Yorkton Code Fractal is distributed in the hope that it will be useful,
  *	but WITHOUT ANY WARRANTY; without even the implied warranty of
  *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *	GNU General Public License for more details.
  *
  *	You should have received a copy of the GNU General Public License
- *	along with Yorkton Code Fractal CFCore.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+ *	along with Yorkton Code Fractal.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
  *
  *	If you wish to modify and use this code without publishing your changes,
  *	or integrate it with proprietary code, please contact Mark Stephen Sobkow
@@ -42,32 +42,25 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xsi:schemaLocation="http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd http://giai.markhome.server/giai-ycf/ycf/2.0.13/xsd/mssbam-2.13.xsdmssbam-2.13.xsd"
+		Name="GiKb`"
 		Revision="1.1"
-		Description="Guided Intelligence Architecture Implementation Fractal GiKb - Fractal GiKb"
-		ProjectRoot="server.markhome.giai.FractalGiKb.1.1" >
+		Description="Guided Intelligence Architecture Implementation Knowledge Base - GiKb"
+		ProjectRoot="server.markhome.giai.GiKb.1.1" >
 	<Tld Name="server" >
 		<TopDomain Name="markhome" >
 			<TopProject Name="giai" >
-				<SubProject Name="FractalGiKb" >
+				<SubProject Name="GiKb" >
 					<MajorVersion Name="1" >
 						<MinorVersion Name="1" >
-<SchemaDef Name="FractalGiKb"
-		DbName="FractalGiKb"
+<SchemaDef Name="GiKb"
+		DbName="GiKb11"
 		Description="Guided Intelligence Architecture Implementation Fractal GiKb"
 		CopyrightHolder="Mark Stephen Sobkow"
 		CopyrightPeriod="2016-2027"
 		AuthorEMail="mark.sobkow@gmail.com"
 		ProjectURL="git://github.com/server.markhome.giai.git"
-		PublishURI="https://msobkow.github.io/index.html#BusModel11"
-		Revision="1.1"
-		ProjectRoot="server.markhome.giai.FractalGiKb.1.1"
+		PublishURI="https://msobkow.github.io/index.html#GiKb11"
 		CommonLicenseName="Dual GPLv3/Commercial" CommonLicenseCode="DualGPLv3" >
-	<Tld Name="server" >
-		<TopDomain Name="markhome" >
-			<TopProject Name="giai" >
-				<SubProject Name="FractalGiKb" >
-					<MajorVersion Name="1" >
-						<MinorVersion Name="1" >
 			<CommonLicense>
 Guided Intelligence Architecture Implementation 1.1 Fractal GiKb
 
@@ -79,7 +72,7 @@ Guided Intelligence Architecture Implementation Fractal GiKb is available under 
 license from Mark Stephen Sobkow, or under the terms of the GNU General Public License, Version 3
 or later with classpath exception.
 
-Yorkton Code Fractal Fractal Synthesis is free software: you can redistribute it and/or
+Yorkton Code Fractal GiKb is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License as published by the Free
 Software Foundation, either version 3 of the License, or (at your option) any later version.
 
